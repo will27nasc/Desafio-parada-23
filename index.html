@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Acesso</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="./js/validacao.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!--Aqui vai a imagem nas CSS-->
+            </div>
+            <div id="formulario">
+                <h1>Cadastre-se</h1>    
+                <hr>
+                <form>
+                    <div class="w50">
+                        <input type="text" placeholder="Nome" id="i_nome" name="Nome" required>
+                    </div><!--w50-->
+
+                    <div class="w50">
+                        <input type="text" placeholder="Email" id="i_email" name="Email" required>
+                    </div><!--w50-->
+
+                    <div class="w100">
+                        <input type="text" placeholder="Celular" id="i_cell" name="Celular" required>
+                    </div><!--w100-->
+
+                    <div class="w100">
+                        <input type="text" placeholder="Senha" id="i_senha" name="Senha" required>
+                    </div><!--w100-->
+
+                    <div class="w100">
+                        <input type="date" id="i_data" required>
+                    </div><!--w100-->
+
+                    <div class="w33">
+                        <input type="radio" name="genero" value="female" checked>
+                        <label for="">Feminino</label>
+                    </div><!--w33-->
+
+                    <div class="w33">
+                        <input type="radio" name="genero" value="male">
+                        <label for="">Masculino</label>
+                    </div><!--w33-->
+
+                    <div class="w33">
+                        <input type="radio" name="genero" value="other">
+                        <label for="">Outro</label>
+                    </div><!--w33-->
+
+                    <div class="w100">
+                        <input type="submit" value="Enviar" id="button">
+                    </div><!--w100-->
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
